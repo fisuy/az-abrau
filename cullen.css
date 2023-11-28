@@ -1,0 +1,633 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.main-right {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all {
+    display: none;
+}
+
+.search {
+    width: 2%;
+    margin-right: 20px;
+}
+
+.login {
+    width: 45%;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login img {
+    width: 100%;
+    height: 20px;
+}
+
+.img {
+    width: 57%;
+    margin-left: 40px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul {
+    align-items: center;
+    display: flex;
+}
+
+.anbar {
+    display: none;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: #11101b;
+    background-color: #fefefe;
+}
+
+.nav-bar ul li a.active {
+    color: #11101b;
+    background-color: #fefefe;
+}
+
+.container {
+    background-color: #F4E5D4;
+    margin-top: 80px;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.abray {
+    width: 40%;
+    margin-top: 80px;
+}
+
+.left {
+    width: 65%;
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    width: 7%;
+    position: absolute;
+    z-index: 1;
+    top: 19%;
+    left: 20%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.cullen {
+    width: 60%;
+    margin-top: 30px;
+}
+
+.cullen h1 {
+    color: #974D24;
+    font-size: 40px;
+}
+
+.cullen h4 {
+    color: #764C54;
+    width: 65%;
+}
+
+.cullen h2 {
+    color: #974D24;
+    margin-top: 20px;
+}
+
+.cullen P {
+    color: #764C54;
+    width: 85%;
+}
+
+.cullen img {
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.terkib {
+    width: 20%;
+}
+
+.terkib h2 {
+    margin-left: 60px;
+    color: #974D24;
+}
+
+.terkib p {
+    width: 100%;
+    font-size: 12px;
+    color: #764C54;
+}
+
+.terkib img {
+    margin-left: 60px;
+}
+
+.boy {
+    width: 20%;
+    margin-top: 15px;
+}
+
+.boy h2 {
+    margin-top: 15px;
+    margin-left: 35px;
+    color: #974D24;
+}
+
+.boy p {
+    width: 100%;
+    font-size: 12px;
+    color: #764C54;
+}
+
+.boy img {
+    margin-left: 60px;
+}
+
+.hello {
+    width: 20%;
+    margin-top: 15px;
+}
+
+.hello h2 {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #974D24;
+}
+
+.hello p {
+    width: 100%;
+    font-size: 12px;
+    color: #764C54;
+}
+
+.hello img {
+    margin-left: 60px;
+}
+
+.teker {
+    width: 20%;
+    margin-top: 15px;
+}
+
+.teker h2 {
+    margin-top: 15px;
+    color: #974D24;
+}
+
+.teker p {
+    width: 100%;
+    font-size: 12px;
+    color: #764C54;
+}
+
+.teker img {
+    margin-left: 60px;
+}
+
+.other {
+    width: 90%;
+    color: #974D24;
+    margin-left: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.the-world {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.document {
+    width: 20%;
+}
+
+.document img {
+    width: 34%;
+}
+
+.kingdom {
+    width: 20%;
+}
+
+.kingdom img {
+    width: 34%;
+}
+
+.united {
+    width: 20%;
+}
+
+.document a {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #974D24;
+    border-radius: 5px;
+    color: #974D24;
+    transition: 0.6s;
+    font-size: 15px;
+}
+
+.document a:hover {
+    background-color: #974D24;
+    color: white;
+}
+
+.kingdom a {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #974D24;
+    border-radius: 5px;
+    color: #974D24;
+    transition: 0.6s;
+    font-size: 15px;
+}
+
+.kingdom a:hover {
+    background-color: #974D24;
+    color: white;
+}
+
+.united a {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #974D24;
+    border-radius: 5px;
+    color: #974D24;
+    transition: 0.6s;
+    font-size: 15px;
+}
+
+.united a:hover {
+    background-color: #974D24;
+    color: white;
+}
+
+.heder {
+    width: 100%;
+}
+
+.abrau-dursu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E7D2BB;
+    color: black;
+    line-height: 30px;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    transition: 0.6s;
+}
+
+.abrau-dursu :hover {
+    color: red;
+}
+
+.durso {
+    width: 10%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.durso a {
+    margin-top: 5px;
+    display: block;
+    color: black;
+}
+
+.elaqe {
+    width: 12%;
+    margin-top: 50px;
+}
+
+.elaqe a {
+    margin-top: 5px;
+    display: block;
+    color: black;
+}
+
+.telefon {
+    width: 27%;
+    margin-top: 80px;
+}
+
+.telefon a {
+    margin-top: 5px;
+    display: block;
+    color: black;
+}
+
+.insta {
+    width: 2%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+.insta img {
+    width: 70%;
+    height: 50px;
+}
+
+.finis {
+    width: 100%;
+    background-color: #F4E5D4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.finis img {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+    .hamburger {
+        width: 40%;
+        margin-left: 5px;
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+    .nav-bar {
+        position: fixed;
+        height: 0;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #11101b;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .nav-bar.active {
+        height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+    .main-left {
+        display: flex;
+        justify-content: space-between;
+    }
+    .login {
+        display: none;
+    }
+    .anbar {
+        display: flex !important;
+        justify-content: center;
+        gap: 45px;
+        align-items: center;
+    }
+    .anbar div {
+        width: 15%;
+        height: 32px;
+        border: 1px solid black;
+        background-color: gray;
+        border-radius: 50%;
+        padding-top: 5px;
+        transition: 1s;
+    }
+    .anbar div:hover {
+        background-color: black;
+    }
+    .img-1 {
+        width: 35px;
+        border-radius: 100%;
+        border: 1px solid black;
+        background-color: rgb(65, 60, 51);
+        height: 33px;
+        padding: 5px;
+    }
+    .durso {
+        width: 15%;
+    }
+    .durso a {
+        width: 100%;
+        margin-top: 5px;
+        display: block;
+        color: black;
+    }
+    .elaqe {
+        width: 20%;
+        margin-top: 50px;
+    }
+    .elaqe a {
+        margin-top: 5px;
+        display: block;
+        color: black;
+    }
+    .the-world {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .header {
+        width: 100%;
+    }
+    .document {
+        width: 20%;
+    }
+    .document img {
+        width: 34%;
+    }
+    .kingdom {
+        width: 20%;
+    }
+    .kingdom img {
+        width: 34%;
+    }
+    .united {
+        width: 20%;
+    }
+    .document a {
+        width: 50%;
+        margin: 20px auto;
+        display: block;
+        border: 1px solid #974D24;
+        border-radius: 5px;
+        color: #974D24;
+        transition: 0.6s;
+        font-size: 15px;
+    }
+    .document a:hover {
+        background-color: #974D24;
+        color: white;
+    }
+    .kingdom a {
+        width: 50%;
+        margin: 20px auto;
+        display: block;
+        border: 1px solid #974D24;
+        border-radius: 5px;
+        color: #974D24;
+        transition: 0.6s;
+        font-size: 15px;
+    }
+    .kingdom a:hover {
+        background-color: #974D24;
+        color: white;
+    }
+    .united img {
+        height: 255px;
+    }
+    .united a {
+        width: 50%;
+        margin: 20px auto;
+        display: block;
+        border: 1px solid #974D24;
+        border-radius: 5px;
+        color: #974D24;
+        transition: 0.6s;
+        font-size: 15px;
+    }
+    .united a:hover {
+        background-color: #974D24;
+        color: white;
+    }
+    .content {
+        width: 100%;
+    }
+    .terkib {
+        width: 25%;
+        text-align: center;
+    }
+    .terkib h2 {
+        margin-left: 0;
+        color: #974D24;
+    }
+    .terkib img {
+        margin-left: 0;
+    }
+    .boy {
+        width: 25%;
+        text-align: center;
+    }
+    .boy h2 {
+        margin-left: 0;
+        color: #974D24;
+    }
+    .boy img {
+        margin-left: 0;
+    }
+    .teker {
+        width: 25%;
+        text-align: center;
+    }
+    .teker h2 {
+        margin-left: 0;
+        color: #974D24;
+    }
+    .teker img {
+        margin-left: 0;
+    }
+    .hello {
+        width: 25%;
+        text-align: center;
+    }
+    .hello h2 {
+        margin-left: 0;
+        color: #974D24;
+    }
+    .hello img {
+        margin-left: 0;
+    }
+}

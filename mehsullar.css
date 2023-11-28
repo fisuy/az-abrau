@@ -1,0 +1,419 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.main-right {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all {
+    display: none;
+}
+
+.search {
+    width: 2%;
+    margin-right: 20px;
+}
+
+.login {
+    width: 45%;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login img {
+    width: 100%;
+    height: 20px;
+}
+
+.img {
+    width: 57%;
+    margin-left: 40px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul {
+    align-items: center;
+    display: flex;
+}
+
+.anbar {
+    display: none;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: #11101b;
+    background-color: #fefefe;
+}
+
+.nav-bar ul li a.active {
+    color: #11101b;
+    background-color: #fefefe;
+}
+
+.general-container {
+    background-image: url(./img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+.general-container>h1 {
+    position: absolute;
+    font-size: 50px;
+    left: 37%;
+    top: 40%;
+    color: white;
+    font-weight: 100;
+}
+
+.home-page {
+    background-color: #F4E5D4;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home-page h5 {
+    color: #50393c;
+    margin-left: 50px;
+}
+
+.home-page h6 {
+    color: lightgray;
+}
+
+.container {
+    background-color: #F4E5D4;
+}
+
+.header-container {
+    color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    width: 25%;
+    height: 400px;
+}
+
+.kateqoriya {
+    width: 100%;
+    margin-left: 50px;
+    color: #50393c;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.kateqoriya h2 {
+    margin-top: 3px;
+}
+
+.shaki-wine {
+    color: #50393c;
+    margin-left: 50px;
+}
+
+.shaki {
+    display: flex;
+    margin-top: 5px;
+}
+
+.shaki p {
+    margin-left: 3px;
+}
+
+.az-abrau {
+    color: #50393c;
+    margin-left: 50px;
+}
+
+.abrau {
+    display: flex;
+    margin-top: 5px;
+}
+
+.abrau p {
+    margin-left: 3px;
+}
+
+.header-right {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.botle {
+    width: 30%;
+    text-align: center;
+}
+
+.botle img {
+    width: 25%;
+}
+
+.botle h2 {
+    font-size: 15px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.botle p {
+    font-size: 15px;
+}
+
+.botle a {
+    width: 50%;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    display: block;
+    border: 1px solid #974D24;
+    border-radius: 5px;
+    color: #974D24;
+    transition: 0.6s;
+    font-size: 15px;
+}
+
+.botle a:hover {
+    background-color: #974D24;
+    color: white;
+}
+
+.abrau-dursu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E7D2BB;
+    color: black;
+    line-height: 30px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    transition: 0.6s;
+}
+
+.abrau-dursu:hover {
+    color: red;
+}
+
+.durso {
+    width: 10%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.durso a {
+    margin-top: 5px;
+    display: block;
+    color: black;
+}
+
+.elaqe {
+    width: 12%;
+    margin-top: 50px;
+}
+
+.elaqe a {
+    margin-top: 5px;
+    display: block;
+    color: black;
+}
+
+.telefon {
+    width: 27%;
+    margin-top: 80px;
+}
+
+.telefon a {
+    margin-top: 5px;
+    display: block;
+    color: black;
+}
+
+.insta {
+    width: 2%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+.insta img {
+    width: 70%;
+    height: 50px;
+}
+
+.finis {
+    width: 100%;
+    background-color: #F4E5D4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.finis img {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+    .hamburger {
+        width: 40%;
+        margin-left: 5px;
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+    .nav-bar {
+        position: fixed;
+        height: 0;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #11101b;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .nav-bar.active {
+        height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+    .main-left {
+        display: flex;
+        justify-content: space-between;
+    }
+    .login {
+        display: none;
+    }
+    .anbar {
+        display: flex !important;
+        justify-content: center;
+        gap: 45px;
+        align-items: center;
+    }
+    .anbar div {
+        width: 15%;
+        height: 32px;
+        border: 1px solid black;
+        background-color: gray;
+        border-radius: 50%;
+        padding-top: 5px;
+        transition: 1s;
+    }
+    .anbar div:hover {
+        background-color: black;
+    }
+    .img-1 {
+        width: 35px;
+        border-radius: 100%;
+        border: 1px solid black;
+        background-color: rgb(65, 60, 51);
+        height: 33px;
+        padding: 5px;
+    }
+    .durso {
+        width: 15%;
+    }
+    .durso a {
+        width: 100%;
+        margin-top: 5px;
+        display: block;
+        color: black;
+    }
+    .elaqe {
+        width: 20%;
+        margin-top: 50px;
+    }
+    .elaqe a {
+        margin-top: 5px;
+        display: block;
+        color: black;
+    }
+    .header-right {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-right: 20px;
+    }
+    .botle {
+        width: 33%;
+        text-align: center;
+    }
+    .botle img {
+        width: 25%;
+    }
+    .botle h2 {
+        font-size: 15px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .botle p {
+        font-size: 15px;
+    }
+}
